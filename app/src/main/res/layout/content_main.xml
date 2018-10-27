@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:id="@+id/contentMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frameOne"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <ImageButton
+                android:id="@+id/ibtn_open_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@null"
+                android:src="@drawable/ic_filter_vintage_black_24dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#109f06"/>
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/frametwo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <ImageButton
+                android:id="@+id/ibtn_open_camera"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:src="@drawable/ic_camera_alt_green_24dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Camera"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#109f06"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="match_parent"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"></LinearLayout>
+
+
+</LinearLayout>

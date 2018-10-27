@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_image_green_24dp"
+            android:title="Home"/>
+        <item
+            android:id="@+id/how_to_use"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+            android:title="User Manual" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/About_Developer"
+                android:icon="@drawable/ic_sentiment_satisfied_black_24dp"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

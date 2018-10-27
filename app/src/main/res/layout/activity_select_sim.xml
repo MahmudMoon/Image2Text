@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectSim"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3">
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_sims"
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <RadioButton
+            android:id="@+id/rb_airtel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Airtel"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:id="@+id/rb_banglalink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Banglalink"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:id="@+id/rb_gp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grameenphone"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:id="@+id/rb_robi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Robi"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:id="@+id/rb_teletalk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teletalk"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"/>
+
+    </RadioGroup>
+
+</LinearLayout>
